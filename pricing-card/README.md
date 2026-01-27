@@ -10,9 +10,11 @@ Perfect for:
 
 ---
 
-## 🔍 Preview
+## 👀 Preview (Before & After Hover)
 
-![Pricing Card Preview](./preview.png)  ![Pricing Card Preview](./preview-hover.png)
+| Static State | Hover State (Effect) |
+| :--- | :--- |
+| ![Preview](preview.png) | ![Preview Hover](preview-hover.png) |
 
 
 ---

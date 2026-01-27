@@ -5,10 +5,12 @@ This component displays current weather information with a smooth hover animatio
 
 ---
 
-## 📸 Preview
+## 👀 Preview (Before & After Hover)
 
-![Weather Card Preview](./img.png)
-![Weather Card Preview](./img_with_hover.png)
+| Static State | Hover State (Effect) |
+| :--- | :--- |
+| ![Weather Card Preview](./img.png) | ![Weather Card Preview](./img_with_hover.png) |
+
 
 
 ---
