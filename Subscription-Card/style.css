@@ -1,0 +1,97 @@
+
+
+/*  Card Container */
+.subscription-card {
+   font-family: 'Inter', -apple-system, sans-serif;
+  background-color: #ffffff;
+  width: 300px;
+  padding: 40px 30px; /* Generous internal padding */
+  border-radius: 24px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: visible; /* Allows the price badge to breathe */
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: 1px solid #eef0f2;
+}
+
+/* Price Style */
+.price-wrapper {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  background: #e0e7ff; /* Soft Indigo */
+  padding: 8px 18px;
+  border-radius: 50px;
+  color: #4338ca; /* Deep Indigo */
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.price {
+  font-size: 1.2rem;
+  white-space: nowrap; /* Prevents price breaking */
+}
+
+/* Typography Colors */
+.plan-title {
+  color: #1e293b; /* Dark Slate */
+  font-size: 1.6rem;
+  margin: 0 0 15px 0;
+  font-weight: 800;
+}
+
+.plan-description {
+  color: #64748b; /* Slate Gray */
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.plan-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 35px;
+}
+
+.plan-features li {
+  color: #334155;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Fancy Hover Effect & Button */
+.card-button {
+  width: 100%;
+  padding: 16px;
+  background-color: #4f46e5; /* Electric Indigo */
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+}
+
+/* Hover Animation */
+.subscription-card:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border-color: #4f46e5;
+}
+
+.card-button:hover {
+  background-color: #4338ca;
+  box-shadow: 0 6px 20px rgba(79, 70, 229, 0.4);
+  transform: translateY(-2px);
+}
+
+.card-button:active {
+  transform: translateY(0);
+}
