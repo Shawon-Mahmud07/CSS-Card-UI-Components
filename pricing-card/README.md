@@ -12,7 +12,7 @@ Perfect for:
 
 ## 🔍 Preview
 
-![Pricing Card Preview](./preview.png)
+![Pricing Card Preview](./preview.png)  ![Pricing Card Preview](./preview-hover.png)
 
 
 ---

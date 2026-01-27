@@ -1,13 +1,13 @@
 .card {
-  --primary: #ff3e00;
-  --primary-hover: #ff6d43;
-  --secondary: #4d61ff;
-  --secondary-hover: #5e70ff;
+  --primary: #1aa06d;
+  --primary-hover: #4133b7;
+  --secondary: #1aa06d;
+  --secondary-hover: #30acac;
   --accent: #00e0b0;
   --text: #050505;
   --bg: #ffffff;
   --shadow-color: #000000;
-  --pattern-color: #cfcfcf;
+  --pattern-color: #bdabc7;
 
   position: relative;
   width: 20em;
