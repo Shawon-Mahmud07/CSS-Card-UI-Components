@@ -6,18 +6,9 @@
   --transition: all 0.3s ease;
 }
 
-body {
-  font-family: "Inter", sans-serif;
-  background-color: #f3f4f6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
-
 /* Card Container */
 .profile-card {
+  font-family: "Inter", sans-serif;
   background: var(--card-gradient);
   width: 280px;
   padding: 40px 20px;
