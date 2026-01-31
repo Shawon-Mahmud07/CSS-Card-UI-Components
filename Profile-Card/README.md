@@ -6,7 +6,7 @@ A sleek, modern, and high-performance profile card component built with semantic
 
 | Static State | Hover State (Tooltip) |
 | :--- | :--- |
-| ![Static Preview](preview.png) | ![Hover Preview](preview-hover.png) |
+| ![Static Preview](Preview.png) | ![Hover Preview](preview-hover.png) |
 
 ## 🚀 Features
 * **Custom CSS Tooltips:** Tooltips are powered by HTML `data-*` attributes and CSS pseudo-elements (`::before`, `::after`).
