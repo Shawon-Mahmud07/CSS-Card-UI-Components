@@ -1,0 +1,89 @@
+       /* Banner Container */
+        .cookie-card {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffffff;
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            text-align: center;
+            border: 1px solid #eaeaea;
+        }
+
+        /* Icon Styling */
+        .cookie-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        h2 {
+            color: #1a1a1a;
+            margin: 0 0 1rem 0;
+            font-size: 1.5rem;
+        }
+
+        p {
+            color: #5f6368;
+            line-height: 1.6;
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .policy-link {
+            color: #2d5cf7;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .policy-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Button Container */
+        .button-group {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+        }
+
+        /* Base Button Styles */
+        .btn {
+            padding: 12px 32px;
+            border-radius: 12px;
+            border: none;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            outline: none;
+        }
+
+        /* Primary "Accept" Button */
+        .btn-allow {
+            background-color: #00b894; /* Professional Mint Green */
+            color: white;
+            box-shadow: 0 4px 15px rgba(0, 184, 148, 0.3);
+        }
+
+        .btn-allow:hover {
+            background-color: #00a383;
+            transform: translateY(-2px); /* Lift effect */
+            box-shadow: 0 8px 20px rgba(0, 184, 148, 0.4);
+        }
+
+        .btn-allow:active {
+            transform: translateY(0);
+        }
+
+        /* Secondary "Decline" Button */
+        .btn-decline {
+            background-color: #f1f3f4;
+            color: #5f6368;
+        }
+
+        .btn-decline:hover {
+            background-color: #e8eaed;
+            color: #202124;
+            transform: translateY(-2px);
+        }
