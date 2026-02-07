@@ -1,0 +1,80 @@
+/* Card Container */
+.card {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7fffb; /* Light Mint Tint */
+    width: 360px;
+    padding: 30px;
+    border-radius: 24px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0eee7;
+}
+
+/* Header Section */
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.icon-circle {
+    background-color: #10b981; /* Emerald Green */
+    color: white;
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header h2 {
+    font-size: 1.2rem;
+    color: #1e293b;
+    font-weight: 700;
+}
+
+/* Body Text */
+.card-body p {
+    color: #64748b;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+}
+
+/* Buttons */
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #064e3b; /* Deep Forest Green */
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #065f46;
+    transform: translateY(-1px);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #64748b;
+}
+
+.btn-secondary:hover {
+    background-color: #edf2f0;
+    color: #1e293b;
+}
