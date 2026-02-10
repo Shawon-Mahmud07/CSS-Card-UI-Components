@@ -1,4 +1,4 @@
-# 🟢 Tech-Pulse | System Dashboard Widget
+# 🟢 Digital Widget
 
 A high-performance, developer-centric Digital widget. This component features a professional emerald-accented dark theme, kinetic "pulse" animations for status indicators, and a clean, modular code architecture.
 
