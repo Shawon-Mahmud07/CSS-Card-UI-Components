@@ -24,7 +24,15 @@ A high-performance, developer-centric Digital widget. This component features a 
     * **Text Primary:** `#e6edf3` (Cloud White)
 * **Logic:** CSS Transitions, Keyframe Animations, Flexbox Layout.
 
+
 ## 💻 How to Use
 1.  Clone the repository to your local machine.
 2.  Ensure `index.html` and `style.css` are in the same root directory.
 3.  Open `index.html` in any modern browser to view the system widget in action.
+
+## 📂 Project Structure
+```text
+Digital-Widget/
+├── index.html        # Main markup with semantic sections
+├── style.css         # Modular CSS with Design Tokens
+└── assets/           # Directory for preview images/icons
