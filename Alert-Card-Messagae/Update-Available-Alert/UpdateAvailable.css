@@ -10,24 +10,9 @@
     --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
 }
 
-/* 2. GLOBAL RESET ---------------------------------------------------------- */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-}
-
-body {
-    background-color: var(--bg-page);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
 /* 3. ALERT CARD ARCHITECTURE ----------------------------------------------- */
 .alert-card {
+    font-family: 'Inter', sans-serif;
     position: relative;
     width: 420px;
     height: 100px;
