@@ -17,6 +17,7 @@ state feedback.
 * **Action Buttons:** `Decline` and `Accept` controls with hover lift effects.
 * **Accessible Close:** Close icon in header and accessible `aria-label`.
 * **Minimal Dependencies:** Pure HTML/CSS—no scripts or frameworks required.
+* **Responsive Design:** Mobile-friendly layout that adapts seamlessly across all screen sizes and devices.
 
 ## 🛠️ Files
 
@@ -34,11 +35,11 @@ state feedback.
 
 ## 📖 How to Use
 
-1.  Download or clone the `terms-card` folder into your project.
-2.  Ensure `index.html` links to `style.css` (as it does by default).
-3.  Open `index.html` in a browser to view the modal; it will appear centered
+1. Download or clone the `terms-card` folder into your project.
+2. Ensure `index.html` links to `style.css` (as it does by default).
+3. Open `index.html` in a browser to view the modal; it will appear centered
     on page load.
-4.  Replace the placeholder text inside `.modal-content` with your actual
+4. Replace the placeholder text inside `.modal-content` with your actual
     terms or other content.
-5.  Customize colors or spacing by editing `style.css` or override the styles
+5. Customize colors or spacing by editing `style.css` or override the styles
     in your own stylesheet.
